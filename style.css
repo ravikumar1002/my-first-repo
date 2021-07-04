@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("bg1.jpg");
+}
+
+.type {
+    display: flex;
+    background-color: azure;
+}
+
+.amount {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: 400px;
+    grid-gap: 10px;
+}
+
+.menu {
+    margin: 20px;
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.type p {
+
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid black;
+    margin: 10px;
+    padding-right: 140px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+.type p:hover{
+    background-color: black;
+    color: white;
+}
+.top-img {
+    grid-column-start: 1;
+    grid-column-end: 17;
+    padding-left: 10px;
+}
+
+.ap {
+    display: grid;
+    grid-template-rows: 170px 60px 170px;
+    margin-left: 69px;
+    font-weight: bolder;
+    font-size: xx-large;
+    grid-column-start: 17;
+    grid-column-end: 20;
+}
+
+.a {
+    text-align: center;
+    padding-top: 50px;
+    text-transform: capitalize;
+    font-size: large;
+    border: 3px solid black;
+    background-color: rgb(168, 146, 113);
+}
+
+.z {
+    grid-row-start: 3;
+}
+
+.po {
+    margin: 20px;
+}
+
+.a a {
+    border: 2px solid rgb(187, 216, 153);
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    padding: 1px;
+}
+
+.food {
+    display: flex;
+    text-align: center;
+    gap: 136px;
+    width: 1050px;
+    font-size: 25px;
+    margin: 50px;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.food div p {
+    font-weight: bolder;
+    font-size: xx-large
+}
+
+.fooda {
+    background-color: white;
+    padding: 20px;
+    border: 4px double black;
+}
+
+.feature {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 30px;
+    padding: 10px;
+    background-color: honeydew;
+    font-weight: bolder;
+}
+
+.part {
+
+    padding: 10px;
+    text-align: left;
+}
+
+.part {
+    font-size: xx-large;
+}
+
+.ft {
+    padding: 60px;
+    font-weight: bolder;
+}
+
+.lm {
+    margin: 20px;
+    padding: 15px;
+}
+
+.lm a {
+    text-decoration: none;
+    background-color: rgb(109, 108, 108);
+    padding: 10px;
+}
+
+.lm p {
+    padding: 10px;
+}
+
+.games {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 40px;
+    column-gap: 30px;
+    margin: 40px;
+    justify-items: center;
+    text-align: center;
+    font-size: x-large;
+}
+
+footer {
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.instantgames {
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.g {
+    border: 2px dotted black;
+}
+
+.g a {
+    text-decoration: none;
+    border: 1px solid;
+    color: rgb(25, 26, 112);
+    background-color: bisque;
+}
+
+/* @media all (max-width: 400px;){
+    header{
+          image-rendering: auto;
+    }
+
+    
+} */
